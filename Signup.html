@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <h1>Signup to my Server</h1>
+    <form action="mailto:rasool@gmail.com" method="post" autocomplete="on" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="fname" value="" required placeholder="Full Name" autofocus><br><br>
+      <label>Your Mail: </label>
+      <input type="email" name="Email" value="" required placeholder="Email"><br><br>
+      <label>Password: </label>
+      <input type="password" name="password" value="" required placeholder="Email Password"><br><br>
+      <label>Create User Id:</label>
+      <input type="search" name="userid" value="" placeholder="Unique user ID"><br><br>
+      <label>Phone Number</label>
+      <input type="tel" name="Phone Number" value=""><br><br>
+      <label>Date of Birth: </label>
+      <input type="date" name="dateofbirth" value="" required><br><br>
+      <label>Age: </label>
+      <input type="number" name="Age" min="1" max="150" required><br><br>
+      <label for="Gender" >Gender: </label>
+      <select class="Gender" name="Gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select><br><br>
+      <label>I here by all are correct</label>
+      <input type="checkbox" name="checkbox" value=""><br><br>
+      <label>Your Photo: </label>
+      <input type="file" name="Photo" value="" accept="image/jpeg;image/x-png;image/gif" required><br><br>
+      <label>Linkedin:</label>
+      <input type="url" name="Linkedin" value="" placeholder="URL"><br><br>
+      <label>How much exicted are you to join us?</label>
+      <input type="range" name="excitment" value="" required><br><br>
+      <label>Are you sure to signup to the Email list?</label>
+      <input type="radio" name="check" value="" required><br><br>
+      <textarea name="Message" rows="8" cols="80" style="width:300px; height:150px" placeholder="Anything you like to say?"></textarea><br>
+      <input type="submit" name="button">
+      <input type="reset" name="Reset">
+    </form>
+  </body>
+</html>
